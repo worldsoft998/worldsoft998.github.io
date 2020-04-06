@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+
+<TITLE>Satellite Broadband Internet Consulting & Related Modem IP Cores Design </TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<!- English Meta //-->
+<meta name="abstract" content="Satellite Broadband Internet Modem IP Cores">
+<meta content="author" name="markchen@xmail.net">
+<meta name="keywords" content="Satellite, Broadband, Internet, Modem,Modulation, Demodulation, IC, IP core">
+<meta name="description" content="Angelia designs satellite broadband Internet modem IP cores and provides technical and business consulting">
+
+
+<link rel="stylesheet" href="../yyy_scripts/myscript/myscript_en.css" type="text/css">
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>  
+
+
+
+
+<link href="../yyy_scripts/dropdownmenu_lwis/css/helper.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Beginning of compulsory code below -->
+
+<link href="../yyy_scripts/dropdownmenu_lwis/css/dropdown.linear.columnar.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../yyy_scripts/dropdownmenu_lwis/css/default.advanced.css" media="screen" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.lwis-celebrity table tr td {
+	font-size: 14px;
+}
+.lwis-celebrity table tr td strong {
+	color: #408080;
+}
+body,td,th {
+	font-size: 16px;
+	color: #697696;
+}
+#headtitle {
+	color: #3474CB;
+	font-size: 24px;
+}
+</style>
+
+<!-- / END -->
+
+
+
+</head>
+<body>
+<table width="900">
+  <tr>
+    <td height="16" align="center" valign="top"><table width="100%" border="0">
+      <tr>
+        <td colspan="3"><h2 align="center" style="color: #993366">Others</h2></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="center"><img src="others1.jpg" width="238" height="125" alt="others" /></td>
+      </tr>
+      <tr>
+        <td valign="top"><h2 align="center">Antennas</h2>
+          <p></p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            AVL Technologies </span>
+          <p>www.avltech.com</p>
+          <p></p>
+          <span style="font-weight: bold"><br />
+            Beam Communications </span>
+          <p>www.beamcomm.net</p>
+          <p></p>
+          <p><br />
+            <span style="font-weight: bold">Boeing</span></p>
+          <p> https://gobcss.com</p>
+          <p></p>
+          <p></p>
+          <p style="font-weight: bold">C-COM</p>
+          <p>&nbsp;</p>
+          <p><br />
+            <span style="font-weight: bold">ettus</span></p>
+          <p>www.ettus.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            General Dynamics Mission Systems, Inc.  Satcom Technologies </span>
+          <p>https://gdmissionsystems.com/satcom-technologies</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">Hyperlink</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Mobilsat </span>
+          <p>www.mobilsat.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"><br />
+            ND SatCom</p>
+          <p> www.ndsatcom.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"> Orban Microwave</p>
+          <p>http://orbanmicrowave.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Vislink </span>
+          <p>www.vislink.com </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p align="left">&nbsp;</p>
+          <h2 align="center">Down Converters</h2>
+          <p align="center">&nbsp;</p>
+          <span style="font-weight: bold">Comtech EF Data </span>
+          <p>www.comtechefdata.com.</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">L3T.com </span>
+          <p> www.nardamiteq.com</p>
+          <p></p>
+          <span style="font-weight: bold">Maxlinear </span>
+          <p>www.maxlinear.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">WORK Microwave </span>
+          <p> www.work-microwave.de</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Down Mixer</h2>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">JRC </p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Encoder/Decoder</h2>
+          <p><br />
+          </p>
+          <p style="font-weight: bold">Cimarron Systems, LLC</p>
+          <p>www.cimarronsystems.com</p>
+          <p></p>
+          <span style="font-weight: bold">Creonic</span> <br />
+          <br />
+          <p> www.creonic.com </p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Exar </span>
+          <p></p>
+          <p></p>
+          <span style="font-weight: bold">Harmonic </span>
+          <p> www.harmonicinc.com </p>
+          <p></p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">IPrium </span>
+          <p>www.iprium.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">New Japan Radio JRC </span>
+          <p> www.njr.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            Telairity </span>
+          <p> www.telairity.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">ViaSat </span>
+          <p>www.viasat.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Vislink </span>
+          <p>www.vislink.com</p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <h2 align="center">Frequency Converters</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Ayecka Communication Systems </span>
+          <p>www.ayecka.com </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">WORK Microwave </span>
+          <p> www.work-microwave.de</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Low Noise Amplifier (LNA)</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"><br />
+            ND SatCom</p>
+          <p> www.ndsatcom.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Low Noise Block (LNB) </h2>
+          <p></p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com</p>
+          <p align="left">&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Ayecka Communication Systems </span>
+          <p>www.ayecka.com </p>
+          <p>&nbsp;</p>
+          <p align="left">&nbsp;</p>
+          <span style="font-weight: bold">CERN </span>
+          <p>&nbsp;</p>
+          <h2 align="center">Low Noise Converter</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Analog Devices </span>
+          <p> www.analog.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Phase Locked Loop</h2>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">JRC </p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <h2 align="center">Power Amplifiers</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com </p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"><br />
+            ND SatCom</p>
+          <p> www.ndsatcom.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Radio Frequency Generator</h2>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">Viasat </p>
+          <h2 align="center">Receivers</h2>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">Ayecka Communication Systems </p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">CML Microcircuits </span>
+          <p>www.cmlmicro.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">SaankhyaLabs </span>
+          <p>https://saankhyalabs.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">ST </span>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">ViaSat / Exede / WildBlue    COMSAT Laboratories (A division of ViaSat, Inc.) </span>
+          <p> www.viasat.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Vislink </span>
+          <p>www.vislink.com</p>
+          <p>&nbsp;</p></td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top"><h2 align="center">Satellite Router</h2>
+          <span style="font-weight: bold">iDirect </span>
+          <p>www.idirect.net</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"><br />
+            ND SatCom</p>
+          <p> www.ndsatcom.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">UHP Networks</p>
+          <p>www.uhp.net</p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Security Core</h2>
+          <h3 align="left">
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">Viasat </p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Software Defined Radio</h2>
+          <p></p>
+          <p><br />
+            <span style="font-weight: bold">ettus</span></p>
+          <p>www.ettus.com</p>
+          <p></p>
+          <p></p>
+          <p><strong>Infineon</strong></p>
+          <p>www.infineon.com</p>
+          <p>&nbsp;</p>
+          <p></p>
+          <span style="font-weight: bold">Lime Microsystems </span>
+          <p> www.limemicro.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">RAMON CHIPS </span>
+          <p> www.ramon-chips.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">SaankhyaLabs </span>
+          <p>https://saankhyalabs.com</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Switch</h2>
+          <p align="left">&nbsp;</p>
+          <h3 align="left">
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">advantechwireless </p>
+          <p align="left" style="font-weight: bold">&nbsp;</p>
+          <p align="left" style="font-weight: bold">&nbsp;</p>
+          <span style="font-weight: bold">Maxim</span>
+          <p>www.maxim-ic.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Test Loop Translators</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Advantech </span>
+          <p>www.advantechwireless.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Transceiver</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Advantech</span>
+          <p>www.advantechwireless.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold"> Amplus Communication </p>
+          <p>www.amplus.biz</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            Intel/Altera </span>
+          <p>www.intel.com</p>
+          <p> www.altera.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Iridium </span>
+          <p style="font-weight: bold">&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">NXP</p>
+          <p>www.nxp.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Semtech</span>
+          <p>www.semtech.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">Signalchip</p>
+          <p> www.signalchip.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Skyworks Solutions, Inc. </span>
+          <p>www.skyworksinc.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Transducer</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">ISTITUTO NAZIONALE DI ASTROFISICA
+            OSSERVATORIO ASTROFISICO DI ARCETRI </span>
+          <p>Orthomode Transducer at 43GHz</p>
+          <p>&nbsp;</p>
+          <h2 align="center">Transmitter</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Ayecka </span>
+          <p>www.ayecka.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">CML Microcircuits </span>
+          <p>www.cmlmicro.com</p>
+          <p></p>
+          <p><br />
+            <span style="font-weight: bold">emcore</span></p>
+          <p> http://emcore.com</p>
+          <p>&nbsp;</p>
+          <p><br />
+            Powercast </p>
+          <p style="font-weight: bold"> www.powercastco.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Raditek</span>
+          <p> www.raditek.com </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Vislink</span>
+          <p>www.vislink.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2 align="center"> Tuner IC</h2>
+          <br />
+          <span style="font-weight: bold">Conexant</span>
+          <p> www.conexant.com</p>
+          <p>&nbsp;</p>
+          <p style="font-weight: bold">&nbsp;</p>
+          <span style="font-weight: bold">Maxlinear </span>
+          <p>www.maxlinear.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            NXP </span>
+          <p> www.nxp.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">ST </span>
+          <p> www.st.com </p>
+          <p>&nbsp;</p>
+          <h2 align="center">Upconverters</h2>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Codan Limited </span>
+          <p>www.codan.com.au</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Communications &amp; Power Industries </span>
+          <p> www.cpii.com/satcom</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">L3T.com </span>
+          <p> www.nardamiteq.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">Terrasat Communications, Inc. </span>
+          <p>www.terrasatinc.com</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold"><br />
+            WAVESTREAM Corporation </span>
+          <p>www.wavestream.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <span style="font-weight: bold">WORK Microwave GmbH </span>
+          <p>www.work-microwave.de</p></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3"><p>&nbsp;</p></td>
+      </tr>
+    </table>
+      <iframe width="5" height="3" src="https://www.youtube.com/embed/2bFo65szAP0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></td>
+  </tr>
+</table>
+</body>
+</html>
